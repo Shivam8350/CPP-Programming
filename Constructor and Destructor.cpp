@@ -22,7 +22,7 @@ public:                         // Access specifier
     Arithematic(Arithematic &obj)   // Copy Constructor
     {
         cout<<"Inside Copy constructor\n";
-        // Nantar Lihu
+        
     }
     ~Arithematic()                      // Destructor
     {
@@ -46,8 +46,8 @@ int main()
 {
     int x = 0, y = 0, ret = 0;
     
-    cout<<"Enter first number\n";       // printf
-    cin>>x;             // 20                   // scanf
+    cout<<"Enter first number\n";       
+    cin>>x;             // 20                   
     cout<<"Enter second number\n";
     cin>>y;             // 12
 Arithematic obj1(x,y);       // Create object of Arithematic class
